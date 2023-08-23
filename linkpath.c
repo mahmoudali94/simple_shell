@@ -85,7 +85,7 @@ list_path *add_node_end(list_path **head, char *str)
  * @path: string of path value
  * Return: pointer to the created linked list
  */
-list_path *lpath(char *path)
+list_path *linkpath(char *path)
 {
 	list_path *head = '\0';
 	char *token;

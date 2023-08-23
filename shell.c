@@ -64,9 +64,9 @@ int main(void)
 		else
 		{
 			value = _getenv("PATH");
-			head = lpath(value);
+			head = linkpath(value);
 			pathname = _which(arv[0], head);
-			f = chkbuild(arv);
+			f = checkbuild(arv);
 			if (f)
 			{
 				free(buff);

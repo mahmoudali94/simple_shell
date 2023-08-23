@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* chkbuild - checks if the command is a buildin
+* checkbuild - checks if the command is a buildin
 * @arv: array of arguments
 * Return: pointer to function that takes arv and returns void
 */
-void(*chkbuild(char **arv))(char **arv)
+void(*checkbuild(char **arv))(char **arv)
 {
 	int i, j;
 	mybuild T[] = {
