@@ -11,7 +11,8 @@
 
 int main(int ac, char **argv)
 {
-
-   return (0);
+	char *prompt = "(Myshell) $ ";
+	printf("%s", prompt);
+	return (0);
 }
 
